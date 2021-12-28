@@ -197,7 +197,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  border-radius: 4px;
+  border-radius: 10px;
   padding: 0px 15px;
   background: #00000075;
   -webkit-transition: 0.5s;
@@ -270,7 +270,10 @@
   color: #0b1227 !important;
   padding: 7px;
   font-size: 21px;
-} 
+}
+.team-social-icon {
+  
+}
 /* ============== TESTIMONIAL ============== */
 .section-title-testimonial {
   position: relative;
@@ -286,6 +289,29 @@
   right: 0px;
   color: #e4e4e4d1;
   letter-spacing: 12px;
+}
+.team-img img {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+.team-info {
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+/* ============== BRAND SLIDER ============== */
+.owl-dots {
+  display: none;
+}
+.brand-slider img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.brand-slider img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 .carousel-control-prev {
   opacity: 1 !important;
@@ -320,19 +346,4 @@
   width: 100px;
   margin: auto;
   border-radius: 100000px;
-} 
-/* ============== BRAND SLIDER ============== */
-.owl-dots {
-  display: none;
 }
-.brand-slider img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.brand-slider img:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-} 

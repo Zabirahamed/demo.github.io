@@ -19,6 +19,10 @@ body {
 body {
   font-family: Montserrat, sans-serif !important;
 }
+/* ============== Image Css ============== */
+img {
+  border-radius: 10px !important;
+}
 /* ============== Preloader Default Css ============== */
 .preeloader {
   position: fixed;
