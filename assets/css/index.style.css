@@ -101,6 +101,7 @@
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s !important;
+  border-radius: 10px !important;
 }
 .service-area:hover {
   -webkit-transform: scale(1.1);
