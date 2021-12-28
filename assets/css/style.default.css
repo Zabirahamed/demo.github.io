@@ -1,0 +1,374 @@
+/* 
+  HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+  Author : Template Coder
+  Support : templatecoder755@gmail.com
+  Author Phone / What's App : +88-01629078287
+  Description : Digital Business Agency Bootstrap and Html Template
+  Version : 1.0
+*/
+
+/* ============== Body Default Css ============== */
+* {
+  outline: none !important;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  font-family: Montserrat, sans-serif !important;
+}
+/* ============== Preloader Default Css ============== */
+.preeloader {
+  position: fixed;
+  width: 100%;
+  transition: 1s;
+  overflow: hidden;
+  height: 100%;
+  background-color: rgb(11, 18, 39);
+  z-index: 2147483647 !important;
+}
+@keyframes preeloader {
+  0% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+  50% {
+    box-shadow: 0px 0px 30px 4px #fff;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+}
+.preeloader-round {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 0%;
+  width: 175px;
+  bottom: 0%;
+  margin: auto;
+  height: 175px;
+  left: 0%;
+  text-align: center;
+  right: 0%;
+  animation-name: preeloader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  padding-top: 35px;
+}
+.disable-preeloader {
+  height: 0px !important;
+}
+.preeloader h1 {
+  font-size: 95px;
+}
+/* ============== Scrollbar Default Css ============== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(0, 13, 138), rgb(0, 13, 255));
+}
+::selection {
+  background: rgb(0, 13, 138);
+  color: white !important;
+}
+/* ============== Header Default Css ============== */
+.top-header {
+  background-color: rgb(11, 18, 39);
+}
+.header-social-icon a {
+  padding: 9px;
+}
+header nav {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+header nav ul li a {
+  text-align: center;
+  color: rgb(11, 18, 39) !important;
+  font-weight: 600 !important;
+  padding: 15px !important;
+}
+.menu-bar {
+  background-color: rgb(0 5 255);
+  width: 0%;
+  height: 3px;
+  transition: all 0.5s ease 0s;
+}
+.hamburger-menu-bar {
+  height: 2px;
+  background: rgb(11, 18, 39);
+  width: 29px;
+  transition: all 0.5s ease 0s;
+  position: relative;
+  margin-top: 6px;
+}
+.hamburger-menu-bar:nth-child(1) {
+  margin-top: 0px !important;
+}
+.menu-bar-2 {
+  left: 0px;
+}
+.menu-bar-2-active {
+  position: relative;
+  left: -15px;
+  opacity: 0;
+}
+.menu-bar-1-active {
+  transform: rotate(50deg) translate(5px, 5px);
+}
+.menu-bar-2-active {
+  position: relative;
+  left: -29px;
+  opacity: 0;
+}
+.menu-bar-3-active {
+  transform: rotate(-50deg) translate(5px, -7px);
+}
+.fixed-header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  background: white;
+  margin: auto;
+  left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.07) -1px 20px 30px 20px;
+  animation-name: headeranimation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+  z-index: 111 !important;
+  border-bottom: 3px solid rgb(2, 13, 117) !important;
+}
+@-webkit-keyframes headeranimation {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes headeranimation {
+  0% {
+    top: -1000px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.header-custom-btn a {
+  background: linear-gradient(90deg, rgb(0, 13, 138), rgb(0, 13, 255), rgb(0, 13, 138), rgb(0, 13, 255)) 0% 0% / 330%;
+  transition: all 0.5s ease 0s;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255) !important;
+  padding: 15px 23px !important;
+}
+.header-custom-btn a:hover {
+  box-shadow: rgba(0, 0, 0, 0.08) -2px 20px 30px 0px;
+  background-position: right center;
+  color: rgb(255, 255, 255) !important;
+}
+header nav ul li a:hover .menu-bar {
+  width: 100%;
+}
+.main-header {
+  padding: 12px 10px;
+}
+.header-social-icon a:nth-child(1) {
+  padding-left: 0px !important;
+}
+/* ============== Heading Tag Default Css ============== */
+h1,h2,h3,h4,h5,h6 {
+  font-family: Poppins, sans-serif;
+}
+/* ============== Primary Background Color Default Css ============== */
+.bg-primary-color {
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+}
+/* ============== Custom Button Default Css ============== */
+.custom-btn {
+  background: transparent;
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+  padding: 15px 23px !important;
+}
+.custom-btn:hover {
+  box-shadow: rgba(255, 255, 255, 0.17) -2px 20px 30px 0px;
+  background: rgb(255, 255, 255);
+  transform: scale(1.1);
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(11, 18, 39) !important;
+}
+.custom-btn-2 {
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(2, 13, 117);
+  color: rgb(11, 18, 39) !important;
+  border-radius: 10px !important;
+  padding: 15px 23px !important;
+}
+.custom-btn-2:hover {
+  border: 3px solid rgb(2, 13, 117);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+  box-shadow: rgba(0, 0, 0, 0.22) -2px 20px 30px 0px;
+  color: white !important;
+}
+.custom-btn-3 {
+  transition: all 0.5s ease 0s;
+  font-weight: 800;
+  border: 3px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+  padding: 15px 23px !important;
+}
+.custom-btn-3:hover {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 9px 30px 7px;
+  color: rgb(0, 0, 0) !important;
+}
+.custom-btn-4 {
+  background-color: rgb(2, 14, 117);
+  border: 3px solid rgb(2, 13, 117);
+  transition: all 0.5s ease 0s;
+  font-weight: bolder;
+  color: white !important;
+  border-radius: 0px !important;
+  padding: 15px 23px !important;
+}
+.custom-btn-4:hover {
+  background-color: rgb(11, 18, 39);
+  border: 3px solid rgb(11, 18, 39);
+  box-shadow: rgba(0, 0, 0, 0.22) -2px 20px 30px 0px;
+}
+/* ============== Primary Color Default Css ============== */
+.primary-color {
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* ============== Secondary Color Default Css ============== */
+.secondary-color {
+  color: rgb(11, 18, 39) !important;
+}
+/* ============== Custom Dark Text ============== */
+.text-dark {
+  color: rgb(11, 18, 39) !important;
+}
+/* ============== Custom Light Text ============== */
+.text-light {
+  color: rgb(221, 221, 221) !important;
+}
+/* ============== Title Bar Default Css ============== */
+.title-bar {
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+  width: 50px;
+  height: 5px;
+  margin: auto;
+}
+.white-title-bar {
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 5px;
+  margin: auto;
+}
+.left-bar {
+  margin: unset;
+}
+/* ============== Top Button Default Css ============== */
+.btn-top {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(45deg, rgb(0, 13, 138), rgb(0, 13, 255));
+  border-radius: 100000px;
+  position: fixed;
+  right: 20px;
+  bottom: -110px;
+  transition: all 0.5s ease 0s;
+  padding: 10px 18px;
+  font-size: 27px;
+  z-index: 214748347 !important;
+}
+.active-top-btn {
+  animation-name: topbtnanimation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.5s ease 0s;
+}
+.btn-top:hover {
+  box-shadow: rgba(0, 0, 0, 0.47) 0px 0px 30px;
+  color: rgb(255, 255, 255) !important;
+}
+@-webkit-keyframes topbtnanimation {
+  0% {
+    bottom: -110px;
+  }
+  100% {
+    bottom: 20px;
+  }
+}
+@keyframes topbtnanimation {
+  0% {
+    bottom: -110px;
+  }
+  100% {
+    bottom: 20px;
+  }
+}
+/* ============== Subscription Form Css ============== */
+.subscribe-btn {
+  padding: 9px 18px !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+.subscription-seciton {
+  background-color: rgb(11, 18, 39);
+}
+.sub-from {
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
+  padding: 9px 18px !important;
+}
+.sub-from::placeholder {
+  color: #ddd;
+  opacity: 1; 
+}
+.sub-from:-ms-input-placeholder { 
+  color: #ddd;
+}
+.sub-from::-ms-input-placeholder { 
+  color: #ddd;
+}
+/* ============== Footer Default Css ============== */
+.main-footer {
+  background: linear-gradient(rgba(0, 13, 145, 0.92), rgba(0, 13, 247, 0.93))
+      center center / cover no-repeat,
+    url("../img/geonix-footer-bg.png");
+}
+.footer-link a {
+  text-decoration: none;
+  color: white !important;
+}
+.footer-link span {
+  transition: all 0.5s ease 0s;
+}
+.footer-link:hover span {
+  padding-left: 10px;
+}
+.footer-social-icon a {
+  padding: 9px;
+  font-size: 29px;
+}
+.bottom-footer {
+  background: rgb(11, 18, 39);
+}
+.footer-logo {
+  width: 195px;
+}

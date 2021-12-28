@@ -1,0 +1,337 @@
+/* 
+  HTML Template Name : GeoNix - Digital Business Agency Bootstrap and Html Template
+  Author : Template Coder
+  Support : templatecoder755@gmail.com
+  Author Phone / What's App : +88-01629078287
+  Description : Digital Business Agency Bootstrap and Html Template
+  Version : 1.0
+*/
+
+/* 
+  CSS INDEX
+  ==================================================
+  1. HERO SECTION
+  2. ABOUT US
+  3. OUR SERVICES
+  4. KNOW ABOUT OUR SKILLS
+  5. WHY WE ARE BEST
+  6. OUR PROJECTS
+  7. OUR TEAM
+  8. TESTIMONIAL
+  9. BRAND SLIDER
+*/
+
+/* ============== HERO SECTION ============== */
+.hero-section {
+  background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 159px 0px !important;
+  padding-bottom: 160px !important;
+  background-attachment: fixed;
+}
+.hero-sub-title {
+  letter-spacing: 10px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.hero-section-title {
+  position: relative;
+  top: 0px;
+}
+.hero-sub-title {
+  position: relative;
+  top: 0px;
+}
+.hero-btn {
+  position: relative;
+  top: 0px;
+}
+/* ============== ABOUT US ============== */
+.about-title::after {
+  content: "";
+  background: #020e75;
+  padding: 1px 27px;
+  position: relative;
+  left: 17px;
+  height: 27px;
+  -webkit-clip-path: polygon(0 46%, 100% 46%, 100% 56%, 0 57%);
+  clip-path: polygon(0 46%, 100% 46%, 100% 56%, 0 57%);
+}
+.section-title-about {
+  position: relative;
+}
+.section-title-about::before {
+  content: "ABOUT US";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 10px;
+}
+/* ============== OUR SERVICES ============== */
+.service-section {
+  background: #0b1227;
+}
+.section-title-services {
+  position: relative;
+  z-index: 1 !important;
+}
+.section-title-services::before {
+  content: "SERVICES";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff26;
+  letter-spacing: 12px;
+  z-index: 0;
+}
+.service-area {
+  background-color: #fff;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s !important;
+}
+.service-area:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 30px 10px #ffffff29;
+  box-shadow: 0px 0px 30px 10px #ffffff29;
+  transform: scale(1.1) !important;
+}
+.service-icon i {
+  padding: 24px 19px;
+  font-size: 34px;
+  background: -o-linear-gradient(45deg, #000d8a, #000dff);
+  background: linear-gradient(45deg, #000d8a, #000dff);
+  color: white;
+  border-radius: 100px;
+}
+/* ============== KNOW ABOUT OUR SKILLS ==============  */
+.skills-img {
+  background: url(../img/geonix-skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} 
+/* ============== WHY WE ARE BEST ============== */
+.know-more-section {
+  background: -o-linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-background-2.jpg);
+  background: linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.info-section {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding-top: 20px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding-bottom: 20px;
+}
+.info-area {
+  padding-top: 15px;
+}
+.info-section:hover {
+  background: #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 30px 6px #ffffff47;
+  box-shadow: 0px 0px 30px 6px #ffffff47;
+}
+.info-section:hover .info-text {
+  color: #0b1227 !important;
+}
+.info-icon,
+.info-text {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.info-section:hover .info-icon {
+  color: #0b1227 !important;
+} 
+/* ============== OUR PROJECTS ============== */
+.section-title-projects {
+  position: relative;
+}
+.section-title-projects::before {
+  content: "PROJECTS";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 12px;
+}
+.project-area {
+  position: relative;
+}
+.project-info {
+  position: absolute;
+  text-align: left !important;
+  color: white !important;
+  top: 0px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 4px;
+  padding: 0px 15px;
+  background: #00000075;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.project-info-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: -3px;
+  left: 0px;
+  right: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.project-detail {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+  transition: 0.5s !important;
+  height: 0px !important;
+}
+.project-area:hover .project-info-bottom {
+  bottom: 5px;
+}
+.project-area:hover .project-detail {
+  opacity: 1;
+  visibility: visible;
+  height: 75px !important;
+}
+/* ============== OUR TEAM ============== */
+.section-title-team {
+  position: relative;
+  z-index: 2;
+}
+.section-title-team::before {
+  content: "TEAM";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #ffffff3b;
+  letter-spacing: 16px;
+}
+.team-workers {
+  background: -o-linear-gradient(#000d91ad, #000df7ab),
+    url(../img/geonix-team.jpg);
+  background: linear-gradient(#000d91ad, #000df7ab), url(../img/geonix-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+  padding: 65px 0px !important;
+}
+.team-member-induvidual {
+  position: relative;
+}
+.team-social-icon {
+  margin: 5px 0px;
+}
+.team-social-icon a {
+  color: #0b1227 !important;
+  padding: 7px;
+  font-size: 21px;
+} 
+/* ============== TESTIMONIAL ============== */
+.section-title-testimonial {
+  position: relative;
+}
+.section-title-testimonial::before {
+  content: "TESTIMONIAL";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 12px;
+}
+.carousel-control-prev {
+  opacity: 1 !important;
+  font-size: 30px;
+}
+.carousel-control-next {
+  opacity: 1 !important;
+  font-size: 30px;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 372px !important;
+  padding: 33px 10px;
+}
+.swiper-slide {
+  background-color: #fff !important;
+  -webkit-box-shadow: 0px 0px 30px #3535354f;
+  box-shadow: 0px 0px 30px #3535354f;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-slide .testimonial-img img {
+  width: 100px;
+  margin: auto;
+  border-radius: 100000px;
+} 
+/* ============== BRAND SLIDER ============== */
+.owl-dots {
+  display: none;
+}
+.brand-slider img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.brand-slider img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+} 
