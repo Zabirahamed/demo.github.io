@@ -18,7 +18,7 @@
   6. OUR PROJECTS
   7. OUR TEAM
   8. TESTIMONIAL
-  9. BRAND SLIDER
+  9. CONTACT AREA
 */
 
 /* ============== HERO SECTION ============== */
@@ -49,6 +49,7 @@
   position: relative;
   top: 0px;
 }
+
 /* ============== ABOUT US ============== */
 .about-title::after {
   content: "";
@@ -75,6 +76,7 @@
   color: #e4e4e4d1;
   letter-spacing: 10px;
 }
+
 /* ============== OUR SERVICES ============== */
 .service-section {
   background: #0b1227;
@@ -119,6 +121,7 @@
   color: white;
   border-radius: 100px;
 }
+
 /* ============== KNOW ABOUT OUR SKILLS ==============  */
 .skills-img {
   background: url(../img/geonix-skills.jpg);
@@ -126,6 +129,7 @@
   background-size: cover;
   background-position: center;
 } 
+
 /* ============== WHY WE ARE BEST ============== */
 .know-more-section {
   background: -o-linear-gradient(#000d91ad, #000df7ab),
@@ -169,6 +173,7 @@
 .info-section:hover .info-icon {
   color: #0b1227 !important;
 } 
+
 /* ============== OUR PROJECTS ============== */
 .section-title-projects {
   position: relative;
@@ -232,6 +237,7 @@
   visibility: visible;
   height: 75px !important;
 }
+
 /* ============== OUR TEAM ============== */
 .section-title-team {
   position: relative;
@@ -271,9 +277,7 @@
   padding: 7px;
   font-size: 21px;
 }
-.team-social-icon {
-  
-}
+
 /* ============== TESTIMONIAL ============== */
 .section-title-testimonial {
   position: relative;
@@ -297,29 +301,6 @@
 .team-info {
   border-bottom-right-radius: 10px !important;
   border-bottom-left-radius: 10px !important;
-}
-/* ============== BRAND SLIDER ============== */
-.owl-dots {
-  display: none;
-}
-.brand-slider img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.brand-slider img:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-.carousel-control-prev {
-  opacity: 1 !important;
-  font-size: 30px;
-}
-.carousel-control-next {
-  opacity: 1 !important;
-  font-size: 30px;
 }
 .swiper {
   width: 100%;
@@ -346,4 +327,64 @@
   width: 100px;
   margin: auto;
   border-radius: 100000px;
+}
+
+/* ============== CONTACT AREA ============== */
+.section-title-contact-us {
+  position: relative;
+}
+.section-title-contact-us::before {
+  content: "CONTACT US";
+  position: absolute;
+  font-size: 69px;
+  top: -15px;
+  z-index: -2;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  color: #e4e4e4d1;
+  letter-spacing: 12px;
+}
+.input-filed {
+  border: 2px solid #ddd;
+  border-radius: 10px !important;
+  transition: 0.5s;
+}
+.input-filed:hover { 
+  border : 2px solid rgb(0, 13, 138);
+}
+.input-filed:focus { 
+  border : 2px solid rgb(0, 13, 138);
+}
+.contact-info-area {
+  clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+  background: #0b1227;
+  padding: 160px 40px;
+  padding-bottom: 100px;
+}
+.contact-area-info-phone i {
+  background: #E81E2C;
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 100000px;
+}
+.contact-area-info-map i {
+  background: #ffa900;
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 100000px;
+}
+.contact-area-info-share i {
+  background: #319aff;
+  padding: 20px 23px;
+  color: #fff;
+  font-size: 40px;
+  border-radius: 100000px;
+}
+.contact-area-social-icon a i {
+  padding: 9px;
+  font-size: 29px;
+  background-color: transparent;
 }
