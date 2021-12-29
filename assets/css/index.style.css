@@ -123,11 +123,8 @@
 }
 
 /* ============== KNOW ABOUT OUR SKILLS ==============  */
-.skills-img {
-  background: url(../img/geonix-skills.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.skills-lightbox {
+  
 } 
 
 /* ============== WHY WE ARE BEST ============== */
@@ -326,7 +323,7 @@
 .swiper-slide .testimonial-img img {
   width: 100px;
   margin: auto;
-  border-radius: 100000px;
+  border-radius: 100000px !important;
 }
 
 /* ============== CONTACT AREA ============== */
