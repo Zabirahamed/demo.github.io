@@ -124,9 +124,90 @@
 
 /* ============== KNOW ABOUT OUR SKILLS ==============  */
 .skills-lightbox {
-  
+  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
 } 
-
+.lightbox-button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 94%;
+  height: 100%;
+  background: linear-gradient(#000d91ad, #000df7ab);
+  margin: auto;
+  border-radius: 10px;
+}
+@keyframes playbutton {
+  0% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+  50% {
+    box-shadow: 0px 0px 30px 4px #fff;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 0px #fff;
+  }
+}
+.play-button {
+  background-color: #fff;
+  position: absolute;
+  font-size: 60px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  width: 145px;
+  height: 140px;
+  border-radius: 10000px;
+  top: 0px;
+  bottom: 0px;
+  padding-top: 26px !important;
+  padding-bottom: 26px !important;
+  box-shadow: 0px 0px 30px white;
+  animation-name: preeloader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  padding-top: 35px;
+}
+.lightbox-popup {
+  position: fixed;
+  background-color: #0b1227e0;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1000000000000000000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s !important;
+}
+.lightbox-content {
+  position: absolute;
+  top: 15%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 60%;
+  margin: auto;
+  vertical-align: middle;
+}
+.lightbox-content iframe {
+  border-radius: 10px;
+}
+.cross-btn {
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  float: right;
+  width: 25px;
+  font-size: 18px;
+}
 /* ============== WHY WE ARE BEST ============== */
 .know-more-section {
   background: -o-linear-gradient(#000d91ad, #000df7ab),
