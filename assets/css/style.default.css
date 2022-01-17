@@ -268,7 +268,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* ============== Custom Light Text ============== */
 .text-light {
-  color: rgb(221, 221, 221) !important;
+  color: rgb(232 232 232) !important;
 }
 /* ============== Title Bar Default Css ============== */
 .title-bar {

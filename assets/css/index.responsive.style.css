@@ -32,6 +32,9 @@
   .section-title-testimonial::before {
     content: "";
   }
+  .section-title-contact-us::before {
+    content: "";
+  }
 }
 @media screen and (min-width: 670px) and (max-width: 787px) {
   .hero-section-title {
