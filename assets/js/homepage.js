@@ -31,6 +31,9 @@ var swiper = new Swiper(".mySwiper", {
 
 // Skills Play Button Start
 $("#playbtn").click(function() {
-    
+    $("#lightboxpopup").addClass('active-lightbox-popup');
+});
+$("#crossbtn").click(function() {
+    $("#lightboxpopup").removeClass('active-lightbox-popup');
 });
 // Skills Play Button End
